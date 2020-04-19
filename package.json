@@ -1,0 +1,38 @@
+{
+  "name": "MERN_fullStack_from_scratch",
+  "version": "1.0.0",
+  "description": "This is complete self made project on react, node js, mongodb.\r WE use Express js but later we use Typescript Also\r For testing we use mocha and chai,\r For Performance --->Redis\r For API -->RESTFUL API Start / Later we use Graph QL\r For Autho--->JWT Tocken for that\r We use GIT/GIT HUB\r WE Use Docker also (First Learn from udemy Course)\r For Production, We uSe AWS  server (First Learn from udemy Course)\r Folder Structure (MVC Pattern)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon application/bin/start.js",
+    "server": "nodemon application/bin/start.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshjangid/MERN_fullStack_from_scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshjangid/MERN_fullStack_from_scratch/issues"
+  },
+  "homepage": "https://github.com/ganeshjangid/MERN_fullStack_from_scratch#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.28",
+    "mongoose": "^5.9.9",
+    "nodemon": "^2.0.3",
+    "pino": "^6.2.0",
+    "pino-multi-stream": "^5.0.0",
+    "uuid": "^7.0.3"
+  }
+}
