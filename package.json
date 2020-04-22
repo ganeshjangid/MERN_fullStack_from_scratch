@@ -4,6 +4,7 @@
   "description": "This is complete self made project on react, node js, mongodb.\r WE use Express js but later we use Typescript Also\r For testing we use mocha and chai,\r For Performance --->Redis\r For API -->RESTFUL API Start / Later we use Graph QL\r For Autho--->JWT Tocken for that\r We use GIT/GIT HUB\r WE Use Docker also (First Learn from udemy Course)\r For Production, We uSe AWS  server (First Learn from udemy Course)\r Folder Structure (MVC Pattern)",
   "main": "index.js",
   "scripts": {
+    "client-install":"npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon application/bin/start.js",
     "server": "nodemon application/bin/start.js",

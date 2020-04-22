@@ -18,7 +18,7 @@ class Registration extends RegService {
      static async saveReg(req,res){
       try {  
         const SaveData=await RegService.saveRegData(req.body);
-        console.log(SaveData);
+        //console.log(SaveData);
         if (!(_.isNull(SaveData))) {
         requestHandler.sendSuccess(res, 'Registration data save sucessfully', 201)(SaveData);
         } else {
